@@ -1,0 +1,16 @@
+Security Project
+p1g8
+Álvaro Martins 72447
+
+Dependencies:
+	pycrypto
+	termcolor
+	pyscrypt
+
+They can all be installed with pip
+
+usage:
+	python server.py (optional -d|--debug -p|--port port)
+	python client.py (optional -d|--debug)
+
+	debug means no cipher is going to be used and port indicates the port to be used
